@@ -679,3 +679,65 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s ease;
+    z-index: 9999;
+}
+
+#preloader img {
+    width: 160px;
+    height: 160px;
+}
+
+.loading-text {
+    margin-top: 20px;
+    font-size: 20px;
+    color: red;
+    font: italic bold 20px/20px Garamond, Georgia;
+}
+.loading-dot {
+    animation: bounce 1.4s infinite;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 30px;
+    font: bold Garamond, Georgia;
+    color: #fff;
+    
+}
+
+.loading-dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.loading-dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+    0%, 80%, 100% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.5);
+    }
+}
+
+#content {
+    display: none;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: show;
+    transition: opacity 1s ease-in-out;
+}
