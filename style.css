@@ -541,13 +541,15 @@ footer{
     padding: 15px 23px;
     color: #fff;
     text-align: center;
+    font-family: deepak, sans-serif;
 }
 footer span a{
-    color: crimson;
+    color: goldenrod;
     text-decoration: none;
 }
 footer span a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    color: red;
 }
 
 
@@ -739,3 +741,9 @@ footer span a:hover{
     visibility: show;
     transition: opacity 1s ease-in-out;
 }
+
+@font-face {
+  font-family: deepakk;
+  src: url(deepakk.ttf);
+  font-weight: normal;
+  }
