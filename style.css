@@ -51,7 +51,7 @@ section .title{
     position: relative;
     text-align: center;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: red;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -191,7 +191,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: red;
     font-weight: 500;
 }
 .home .home-content a{
@@ -279,7 +279,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: red;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -368,13 +368,13 @@ section .title::after{
     width: 75%;
 }
 .skills-content .right .js::before{
-    width: 80%;
-}
-.skills-content .right .php::before{
     width: 50%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .php::before{
     width: 30%;
+}
+.skills-content .right .mysql::before{
+    width: 40%;
 }
 
 /* teams section styling */
@@ -404,7 +404,7 @@ section .title::after{
 }
 .teams .carousel .card .text{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 10px 0 7px 0;
 }
 .teams .carousel .card img{
@@ -523,7 +523,7 @@ section .title::after{
   height: 45px;
   outline: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   border-radius: 6px;
   cursor: pointer;
@@ -541,6 +541,7 @@ footer{
     background: #111;
     padding: 15px 23px;
     color: #fff;
+    font-size: 12px;
     font-weight: 600;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -705,7 +706,7 @@ footer span a:hover{
     margin-top: 20px;
     font-size: 20px;
     color: red;
-    font: italic bold 20px/20px Montserrat, sans-serif;
+    font: bold 20px/20px Montserrat, sans-serif;
 }
 .loading-dot {
     animation: bounce 1.4s infinite;
