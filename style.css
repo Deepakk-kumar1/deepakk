@@ -504,9 +504,26 @@ section .title::after{
     font-family: 'Montserrat', sans-serif;
     transition: all 0.3s ease;
 }
-.contact .right form .field input:focus,
+.contact .right form .field input:focus {
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+    padding: 0 15px;
+    transition: 50ms step-start;
+    color: red;
+    font-size: 17px;
+    animation: input 0.3s;
+    box-shadow: 0 0 0 3em transparent;
+    --hover: red;
+  }
+  @keyframes input {
+    0% {
+      box-shadow: 0 0 0 0 var(--hover);
+      }
+  }
+
 .contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
+    border-color: red;
 }
 .contact .right form .textarea textarea{
   padding-top: 10px;
