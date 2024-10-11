@@ -725,7 +725,7 @@ footer span a:hover{
     margin-top: 20px;
     font-size: 20px;
     color: red;
-    font: 20px/20px Rozha One", serif;
+    font: 20px/20px "Rozha One", serif;
 }
 .loading-dot {
     animation: bounce 1.4s infinite;
