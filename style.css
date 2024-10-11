@@ -1,6 +1,7 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
 
 *{
     margin: 0;
@@ -724,7 +725,7 @@ footer span a:hover{
     margin-top: 20px;
     font-size: 20px;
     color: red;
-    font: bold 20px/20px "Hind", sans-serif;
+    font: 20px/20px Rozha One", serif;
 }
 .loading-dot {
     animation: bounce 1.4s infinite;
