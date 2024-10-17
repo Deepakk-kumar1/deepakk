@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhi QR 2.0</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/5102d7ad4e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <div class="header">
+    <a href="abhiqr.html" style="text-decoration: none; color: white; cursor: none;">
+      <span class="close-btn2" onclick="openNavbar()"><i class="fas fa-home"></i> Home</span>
+    </a>
+  </div>
+  <span class="abhi1">
+    Abhi QR Generator
+  </span>
+  
+  <div class="page1">
+    <h1>Text</h1><br/>
+    <input type="text" id="inputData" placeholder="Enter text here" required>
+    <button onclick="generateQRCode()">Generate QR Code</button>
+    <div id="output"></div>
+    <br />
+    <button id="downloadButton" style="display:none;" onclick="downloadQRCode()">Download</button>
+  </div>
+  <footer>
+  Copyright &copy; 2025, Deepakk8373 India.<br />Design and Developed by Deepak Kumar.
+  </footer>
+    <script src="qrcode.js"></script>
+    <script src="qrText.js"></script>
+
+</body>
+</html>
