@@ -196,7 +196,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  background-color: #000000E6;
+  background-color: black;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
