@@ -559,9 +559,9 @@ section .title::after{
 footer{
     background: #111;
     padding: 15px 23px;
-    color: #fff;
+    color: goldenrod;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -764,4 +764,4 @@ footer span a:hover{
     transition: opacity 1s ease-in-out;
 }
 
-/* copyright &copy; 2025, AD Tech ™ */
+/* copyright &copy; 2025, Deepakk8373 India. */
