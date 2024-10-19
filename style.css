@@ -198,10 +198,10 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background-image: linear-gradient(45deg, red, yellow);
+    background: red;
     color: #fff;
     font-size: 24px;
-    padding: 13px 36px;
+    padding: 14px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 50px;
@@ -210,6 +210,7 @@ section .title::after{
 }
 .home .home-content a:hover{
     color: red;
+    border: 2px solid red;
     background: none;
 }
 
@@ -242,11 +243,11 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background-image: linear-gradient(45deg, red, yellow);
+    background: red;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    padding: 10px 30px;
+    padding: 12px 30px;
     margin-top: 20px;
     border-radius: 50px;
     border: 0;
@@ -255,6 +256,7 @@ section .title::after{
 .about .about-content .right a:hover{
     color: red;
     background: none;
+    border: 2px solid red;
 }
 
 /* services section styling */
@@ -326,14 +328,15 @@ section .title::after{
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    padding: 8px 16px;
+    padding: 10px 16px;
     margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid red;
+    border-radius: 50px;
+    border: 0;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
     color: red;
+    border: 2px solid red;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -538,22 +541,23 @@ section .title::after{
 .right form .button-area button{
   color: #fff;
   display: block;
-  width: 160px!important;
-  height: 45px;
+  width: 158px!important;
+  height: 46px;
   outline: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   font-weight: 500;
-  border-radius: 6px;
+  border-radius: 50px;
   cursor: pointer;
   flex-wrap: nowrap;
   background: red;
-  border: 2px solid red;
+  border: 0;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
   color: red;
   background: none;
+  border: 2px solid red;
 }
 /* footer section styling */
 footer{
