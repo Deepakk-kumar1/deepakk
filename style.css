@@ -97,6 +97,7 @@ section .title{
     font-weight: 600;
     margin-bottom: 60px;
     padding-bottom: 20px;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
 section .title::before{
@@ -117,6 +118,7 @@ section .title::after{
     color: red;
     padding: 0 5px;
     background: #fff;
+    border-radius: 12px;
     transform: translateX(-50%);
 }
 
