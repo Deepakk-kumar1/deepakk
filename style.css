@@ -324,9 +324,10 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background-image: linear-gradient(45deg, #001825, #001E1B);
     text-align: center;
-    border-radius: 12px;
+    border-radius: 20px;
+    text-align: center;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -431,8 +432,8 @@ section .title::after{
     content: "who with me";
 }
 .teams .carousel .card{
-    background: #222;
-    border-radius: 12px;
+    background: #111;
+    border-radius: 20px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
