@@ -31,7 +31,45 @@ html{
 /* all similar content styling codes */
 section{
     padding: 100px 0;
+     opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.7s ease-out, transform 1s ease-out;
 }
+ section.show {
+   opacity: 1;
+   transform: translateY(0);
+ }
+
+abhi .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+abhi .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+abhi .title::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: red;
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -65,7 +103,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: #fff;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -240,6 +278,7 @@ section .title::after{
 }
 .about .about-content .right p{
     text-align: justify;
+    color: navajowhite;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -262,7 +301,7 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background-image: linear-gradient(135deg, #001918, #1F0014);
 }
 .services .title::before,
 .teams .title::before{
@@ -270,14 +309,14 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: #fff;
     content: "we provide";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 12px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -289,7 +328,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover .box{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 .services .serv-content .card i{
     font-size: 50px;
@@ -307,12 +346,20 @@ section .title::after{
 
 
 /* skills section styling */
-
+.skills {
+  background-image: linear-gradient(45deg, #00150E, #001422);
+}
 .skills .title::after{
     content: "what i know";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
+}
+.skills .skills-content .left img{
+    height: 25%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
 }
 .skills .skills-content .left .text{
     font-size: 20px;
@@ -321,74 +368,60 @@ section .title::after{
 }
 .skills .skills-content .left p{
     text-align: justify;
+    color: #fff;
 }
 .skills .skills-content .left a{
+    display: inline-block;
+    color: #fff;
+   text-decoration: none;
+}
+.skills .skills-content .left a:hover{
+    color: red;
+    background: none;
+}
+.skills .skills-content .right .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .right p{
+    text-align: justify;
+    color: navajowhite;
+}
+
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .skills-content .right a{
     display: inline-block;
     background: red;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    padding: 10px 16px;
+    padding: 8px 16px;
     margin-top: 20px;
     border-radius: 50px;
-    border: 0;
+    border: 2px solid red;
     transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover{
+.skills .skills-content .right a:hover{
     color: red;
-    border: 2px solid red;
     background: none;
 }
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
-}
-.skills .skills-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-.skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-}
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: red;
-}
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 75%;
-}
-.skills-content .right .js::before{
-    width: 50%;
-}
-.skills-content .right .php::before{
-    width: 30%;
-}
-.skills-content .right .mysql::before{
-    width: 40%;
-}
+
 
 /* teams section styling */
+.teams {
+    background-image: linear-gradient(45deg, #20001E, #001422);
+}
 .teams .title::after{
     content: "who with me";
 }
 .teams .carousel .card{
     background: #222;
-    border-radius: 6px;
+    border-radius: 12px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
@@ -446,6 +479,9 @@ section .title::after{
 }
 
 /* contact section styling */
+.contact {
+    background-image: linear-gradient(45deg, #220230, #002318);
+}
 .contact .title::after{
     content: "get in touch";
 }
@@ -459,6 +495,7 @@ section .title::after{
 }
 .contact .contact-content .left p{
     text-align: justify;
+    color: navajowhite;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -510,13 +547,16 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .right form .field input:focus {
+    .field input:focus {
     height: 100%;
     width: 100%;
-    border: 1px solid red;
+    border: 2px solid red;
+    filter: drop-shadow(0 0 14px orange);
     padding: 0 15px;
     transition: 50ms step-start;
-    color: red;
+    color: #00EAE0;
     font-size: 17px;
+    transform: scale(1.05);
     animation: input 0.3s;
     box-shadow: 0 0 0 3em transparent;
     --hover: red;
@@ -525,10 +565,24 @@ section .title::after{
     0% {
       box-shadow: 0 0 0 0 var(--hover);
       }
-  }
+    }
 
 .contact .right form .textarea textarea:focus{
-    border-color: red;
+    border: 2px solid red;
+    filter: drop-shadow(0 0 14px orange);
+    transition: 50ms step-start;
+    color: #00EAE0;
+    font-size: 17px;
+    transform: scale(1.05);
+    animation: input 0.3s;
+    box-shadow: 0 0 0 3em transparent;
+    --hover: red;
+  }
+  @keyframes textarea {
+    0% {
+      box-shadow: 0 0 0 0 var(--hover);
+      }
+    }
 }
 .contact .right form .textarea textarea{
   padding-top: 10px;
