@@ -294,7 +294,7 @@ section .title::after{
     display: inline-block;
     background: red;
     color: #fff;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     padding: 12px 30px;
     margin-top: 20px;
@@ -393,6 +393,7 @@ section .title::after{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+     color: #fff;
 }
 .skills .skills-content .right p{
     text-align: justify;
@@ -613,7 +614,7 @@ section .title::after{
   height: 45px;
   outline: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   border-radius: 50px;
   cursor: pointer;
