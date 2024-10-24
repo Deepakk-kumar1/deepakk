@@ -254,6 +254,7 @@ section .title::after{
 }
 .home .home-content a:hover{
     color: #fff;
+    border: 2px solid red;
     background: none;
 }
 
