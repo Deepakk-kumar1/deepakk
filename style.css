@@ -292,9 +292,36 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+  color: #fff;
+}
+
+.about .about-content .right .icons{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    transition: all 0.3s ease;
+    gap: 12px;
+}
+.about .about-content .right .icons a:hover{
+  transform: scale(1.2);
+}
+
+.about .about-content .right .more{
+    text-decoration: none;
+    display: inline-block;
     background: red;
     color: #fff;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     padding: 12px 30px;
     margin-top: 20px;
@@ -302,10 +329,10 @@ section .title::after{
     border: 0;
     transition: all 0.3s ease;
 }
-.about .about-content .right a:hover{
-    color: red;
+.about .about-content .right .more:hover{
+    color: #fff;
+    border: 1px solid red;
     background: none;
-    border: 2px solid red;
 }
 
 /* services section styling */
