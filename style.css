@@ -248,12 +248,12 @@ section .title::after{
     margin-top: 20px;
     font-weight: 400;
     border-radius: 50px;
+    border: 2px solid red;
     border: 0;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: red;
-    border: 2px solid red;
+    color: #fff;
     background: none;
 }
 
