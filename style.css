@@ -873,7 +873,7 @@ footer span a:hover{
   display: inline-block;
   width: 22px;
   height: 22px;
-  margin: 4px;
+  margin: -15px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("verify.svg");
