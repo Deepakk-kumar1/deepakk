@@ -879,4 +879,54 @@ footer span a:hover{
   background-image: url("verify.svg");
 }
 
+/* Tooltip container */
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    /* Tooltip text */
+    .tooltip .tooltip-text {
+      visibility: hidden;
+      width: 60px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      border-radius: 25px;
+      padding: 8px;
+      position: absolute;
+      z-index: 1;
+      bottom: 103%;
+      /* Position above the element */
+      left: 10%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      font-size: 14px;
+      transition: all 0.6s ease-in-out;
+    }
+
+    /* Tooltip arrow */
+    .tooltip .tooltip-text::after {
+      content: "";
+      position: absolute;
+      top: 100%; /* Arrow points down */
+      left: 72%;
+      margin-left: -5px;
+      margin: -1px;
+      border-width: 6px;
+      border-style: solid;
+      border-color: #000 transparent transparent transparent;
+    }
+
+    /* Show the tooltip on hover */
+    .tooltip:hover .tooltip-text {
+      visibility: visible;
+      opacity: 1;
+      transition: all 1.5s ease-out;
+
+    }
+
 /* copyright &copy; 2025, Deepakk8373 India. */
