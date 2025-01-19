@@ -890,7 +890,7 @@ footer span a:hover{
     /* Tooltip text */
     .tooltip .tooltip-text {
       visibility: hidden;
-      width: 60px;
+      width: 100px;
       background-color: #000;
       color: #fff;
       text-align: center;
