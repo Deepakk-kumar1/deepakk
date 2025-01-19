@@ -898,7 +898,7 @@ footer span a:hover{
       padding: 8px;
       position: absolute;
       z-index: 1;
-      bottom: 150%;
+      bottom: 125%;
       /* Position above the element */
       left: 10%;
       transform: translateX(-50%);
