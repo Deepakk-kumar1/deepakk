@@ -868,7 +868,7 @@ footer span a:hover{
 }
 
 /* verify profile */
-.mdi--tick-decagram {
+.verify {
   position: absolute;
   display: inline-block;
   width: 22px;
