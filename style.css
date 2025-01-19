@@ -867,4 +867,16 @@ footer span a:hover{
     transition: opacity 1s ease-in-out;
 }
 
+/* verify profile */
+.mdi--tick-decagram {
+  position: absolute;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: 3px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%230d98ff' d='m23 12l-2.44-2.78l.34-3.68l-3.61-.82l-1.89-3.18L12 3L8.6 1.54L6.71 4.72l-3.61.81l.34 3.68L1 12l2.44 2.78l-.34 3.69l3.61.82l1.89 3.18L12 21l3.4 1.46l1.89-3.18l3.61-.82l-.34-3.68zm-13 5l-4-4l1.41-1.41L10 14.17l6.59-6.59L18 9z'/%3E%3C/svg%3E");
+}
+
 /* copyright &copy; 2025, Deepakk8373 India. */
