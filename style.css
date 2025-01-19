@@ -63,7 +63,7 @@ abhi .title::before{
 }
 abhi .title::after{
     position: absolute;
-    bottom: -5px;
+    bottom: -10px;
     left: 50%;
     font-size: 20px;
     color: red;
@@ -112,7 +112,7 @@ section .title::before{
 }
 section .title::after{
     position: absolute;
-    bottom: -5px;
+    bottom: -10px;
     left: 50%;
     font-size: 20px;
     color: red;
