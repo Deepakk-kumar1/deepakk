@@ -1,12 +1,15 @@
-document.addEventListener("scroll", function() {
-  const sections = document.querySelectorAll("section");
+window.addEventListener('scroll', () => {
+        const sections = document.querySelectorAll('section');
 
-  sections.forEach(section => {
-    const sectionTop = section.getBoundingClientRect().top;
-    const windowHeight = window.innerHeight;
+        sections.forEach((section) => {
+            const sectionPosition = section.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
 
-    if (sectionTop < windowHeight - 50) {
-      section.classList.add("show");
-    }
-  });
-});
+            // If the section is in the viewport, add the "show" class
+            if (sectionPosition < windowHeight - 100) {
+                section.classList.add('show');
+            } else {
+                section.classList.remove('show');
+            }
+        });
+    });
