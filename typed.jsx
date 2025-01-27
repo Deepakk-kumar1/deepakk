@@ -1,6 +1,6 @@
 var options = {
       strings: [
-        "अंतः अस्ति प्रारंभ", 
+        "अंतः अस्ति प्रारंभः", 
         "The End is The Beginning", 
         "अंत ही प्रारम्भ है।"
       ],
