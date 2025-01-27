@@ -79,5 +79,5 @@ document.addEventListener("DOMContentLoaded", function() {
         setTimeout(function() {
             document.getElementById('content').classList.add('show');
         }, 100); // Adding a slight delay to ensure the preloader is hidden before showing the content
-    }, 3000); // 5000 milliseconds = 5 seconds
+    }, 4000); // 5000 milliseconds = 5 seconds
 });
