@@ -72,12 +72,15 @@ $(document).ready(function(){
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+window.onload = function() {
+  setTimeout(function() {
+    const preloader = document.getElementById('preloader');
+    preloader.classList.add('hidden');
+
+    // Show content after preloader fades out
     setTimeout(function() {
-        document.getElementById('preloader').classList.add('hide');
-        document.getElementById('content').style.display = 'block';
-        setTimeout(function() {
-            document.getElementById('content').classList.add('show');
-        }, 100); // Adding a slight delay to ensure the preloader is hidden before showing the content
-    }, 3000); // 5000 milliseconds = 5 seconds
-});
+      preloader.style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+    }, 100); // Time to fully hide the preloader
+  }, 3000);
+};
