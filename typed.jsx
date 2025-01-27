@@ -5,8 +5,8 @@ var options = {
         "अंत ही प्रारम्भ है",
         "ముగింపు ప్రారంభం"
       ],
-      typeSpeed: 100, // Speed of typing
-      backSpeed: 50, // Speed of deleting text
+      typeSpeed: 30, // Speed of typing
+      backSpeed: 20, // Speed of deleting text
       loop: true // Loop the animation
     };
 
