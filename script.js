@@ -81,6 +81,6 @@ window.onload = function() {
     setTimeout(function() {
       preloader.style.display = 'none';
       document.getElementById('content').style.display = 'block';
-    }, 100); // Time to fully hide the preloader
-  }, 3000);
+    }, 1000); // Time to fully hide the preloader
+  }, 4000);
 };
