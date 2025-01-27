@@ -2,7 +2,8 @@ var options = {
       strings: [
         "अंतः अस्ति प्रारंभः", 
         "The End is The Beginning", 
-        "अंत ही प्रारम्भ है।"
+        "अंत ही प्रारम्भ है",
+        "ముగింపు ప్రారంభం"
       ],
       typeSpeed: 50, // Speed of typing
       backSpeed: 30, // Speed of deleting text
