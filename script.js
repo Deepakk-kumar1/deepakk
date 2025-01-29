@@ -84,3 +84,24 @@ window.onload = function() {
     }, 1000); // Time to fully hide the preloader
   }, 5000);
 };
+
+// JavaScript function to redirect after form submission
+        function redirectToHome(event) {
+            event.preventDefault(); // Prevent default form submission
+            const form = event.target;
+
+            // Submit form data to FormSubmit
+            fetch(form.action, {
+                method: form.method,
+                body: new FormData(form)
+            }).then(response => {
+                if (response.ok) {
+                    // Redirect to homepage
+                    window.location.href = "https://deepakk1.netlify.app";
+                } else {
+                    alert("Failed to send message. Please try again.");
+                }
+            }).catch(error => {
+                alert("An error occurred: " + error.message);
+            });
+        }
