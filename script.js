@@ -90,3 +90,14 @@ if ("serviceWorker" in navigator) {
     .then(() => console.log("Service Worker Registered"))
     .catch((error) => console.log("Service Worker Registration Failed:", error));
 }
+
+let deferredPrompt;
+window.addEventListener("beforeinstallprompt", (event) => {
+  event.preventDefault();
+  deferredPrompt = event;
+  document.getElementById("installButton").style.display = "block";
+});
+
+document.getElementById("installButton").addEventListener("click", () => {
+  deferredPrompt.prompt();
+});
