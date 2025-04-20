@@ -1,4 +1,4 @@
-# Hi there, I'm Deepakk! 👋
+# Namaste, I'm Deepakk! 👋
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Deepakk-kumar1&color=blue)
 
