@@ -13,11 +13,13 @@ I'm a passionate web application programmer and software developer with a keen i
 - 💬 Ask me about ReactJs, JavaScript, Python, and web development.
 - 📫 How to reach me: [Email](mailto:deepakk8373@gmail.com)
 - 😄 Pronouns: He/Him
-- ⚡ Fun fact: I love solving puzzles and playing chess.
+- contact me : (tel:+918953208373)
+- ⚡ Fun fact: I love playing the Battlegrounds Mobile India (BGMI) and other video games.
 
 ## Skills
 
 ### Languages
+- ReactJs
 - JavaScript
 - Python
 - Java
@@ -30,7 +32,8 @@ I'm a passionate web application programmer and software developer with a keen i
 
 ### Tools & Platforms
 - Git & GitHub
-- Docker
+- Hostinger
+- MS Azure
 - AWS
 
 ## Projects
@@ -49,4 +52,7 @@ A brief description of this project and what it achieves.
 
 - [LinkedIn](https://www.linkedin.com/in/deepakk-kumar1/)
 - [Twitter](https://twitter.com/deepakk_kumar1)
+- [Instagram](https://instagram.com/deepakk8373)
+- [Facebook](https://facebook
+com/deepakk8373)
 - [Personal Website](https://deepakk-kumar1.github.io)
