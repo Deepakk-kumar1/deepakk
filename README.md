@@ -1,16 +1,16 @@
-# Namaste, I'm Deepakk! 👋
+# Namaste, I'm Deepak Kumar
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Deepakk-kumar1&color=blue)
 
 ## About Me
 
-I'm a passionate software developer with a keen interest in open-source projects and collaborative development. I enjoy learning new technologies and applying them to solve real-world problems.
+I'm a passionate web application programmer and software developer with a keen interest in open-source projects and collaborative development. I enjoy learning new technologies and applying them to solve real-world problems.
 
 - 🔭 I’m currently working on various web development projects.
 - 🌱 I’m currently learning React, Node.js, and cloud technologies.
 - 👯 I’m looking to collaborate on open-source projects.
 - 🤔 I’m looking for help with advanced machine learning algorithms.
-- 💬 Ask me about JavaScript, Python, and web development.
+- 💬 Ask me about ReactJs, JavaScript, Python, and web development.
 - 📫 How to reach me: [Email](mailto:deepakk8373@gmail.com)
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I love solving puzzles and playing chess.
