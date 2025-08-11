@@ -1,10 +1,10 @@
-# Namaste, I'm Deepak Kumar
+# Namaste, I'm Deepak, ❤️ Love from India 🇮🇳
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Deepakk-kumar1&color=blue)
 
 ## About Me
 
-I'm a passionate web application programmer and software developer with a keen interest in open-source projects and collaborative development. I enjoy learning new technologies and applying them to solve real-world problems.
+I'm a passionate web application programmer and software developer with a keen interest in open-source projects and collaborative development from India 🇮🇳. I enjoy learning new technologies and applying them to solve real-world problems.
 
 - 🔭 I’m currently working on various web development projects.
 - 🌱 I’m currently learning React, Node.js, and cloud technologies.
@@ -13,7 +13,6 @@ I'm a passionate web application programmer and software developer with a keen i
 - 💬 Ask me about ReactJs, JavaScript, Python, and web development.
 - 📫 How to reach me: [Email](mailto:deepakk8373@gmail.com)
 - 😄 Pronouns: He/Him
-- contact me : (tel:+918953208373)
 - ⚡ Fun fact: I love playing the Battlegrounds Mobile India (BGMI) and other video games.
 
 ## Skills
@@ -53,6 +52,4 @@ A brief description of this project and what it achieves.
 - [LinkedIn](https://www.linkedin.com/in/deepakk-kumar1/)
 - [Twitter](https://twitter.com/deepakk_kumar1)
 - [Instagram](https://instagram.com/deepakk8373)
-- [Facebook](https://facebook
-com/deepakk8373)
 - [Personal Website](https://deepakk-kumar1.github.io)
