@@ -1,9 +1,9 @@
 var options = {
       strings: [
+        "न कंचित् शाश्वतम्", 
         "अंतः अस्ति प्रारंभः", 
-        "The End is The Beginning", 
-        "अंत ही प्रारम्भ है",
-        "ముగింపు ప్రారంభం"
+        "श्री रामो विग्रहवान् धर्मः",
+        "धर्मो रक्षति रक्षितः"
       ],
       typeSpeed: 40, // Speed of typing
       backSpeed: 20, // Speed of deleting text
