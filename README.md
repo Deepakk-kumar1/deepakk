@@ -18,22 +18,33 @@ I'm a passionate web application programmer and software developer with a keen i
 ## Skills
 
 ### Languages
-- ReactJs
 - JavaScript
+- Angular.js
+- React.js
+- TypeScript
 - Python
 - Java
+- HTML
+- CSS
+- PHP
 
 ### Frameworks & Libraries
-- React
-- Node.js
-- Express
-- Django
+- ReactJs
+- AngularJs
+- NodeJs
+- ExpressJs
+
+### Database and Clouds
+- MongoDB
+- MS Azure
+- GitHub
+
 
 ### Tools & Platforms
-- Git & GitHub
 - Hostinger
 - MS Azure
 - AWS
+- GoDaddy
 
 ## Projects
 
@@ -52,4 +63,4 @@ A brief description of this project and what it achieves.
 - [LinkedIn](https://www.linkedin.com/in/deepakk-kumar1/)
 - [Twitter](https://twitter.com/deepakk_kumar1)
 - [Instagram](https://instagram.com/deepakk8373)
-- [Personal Website](https://deepakk-kumar1.github.io)
+- [Personal Website](https://deepakk1.in/)
