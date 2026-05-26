@@ -82,7 +82,7 @@ window.onload = function() {
       preloader.style.display = 'none';
       document.getElementById('content').style.display = 'block';
     }, 1000); // Time to fully hide the preloader
-  }, 5000);
+  }, 6000);
 };
 
 if ("serviceWorker" in navigator) {
