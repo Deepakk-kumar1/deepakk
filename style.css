@@ -848,9 +848,10 @@ footer span a:hover{
 
 .loading-text {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 20px;
     color: red;
-    font: 24px/24px "Google Sans", sans-serif;
+    font-weight: bold;
+    font: 20px/20px "Google Sans", sans-serif;
 }
 
 .loading-dot {
