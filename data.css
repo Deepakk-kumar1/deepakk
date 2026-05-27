@@ -207,7 +207,7 @@ body.dark-mode .admin-panel{
 .login-box button{
   width:100%;
   padding:12px;
-  background: linear-gradient(135deg, #ff6b6b, #4d96ff);
+  background: linear-gradient(135deg, #8E00FC, #ff6b6b);
   transition: all 0.5s ease-in-out;
   color:white;
   border:none;
@@ -216,6 +216,7 @@ body.dark-mode .admin-panel{
 }
 
 .login-box button:hovor{
+  background-position: right center;
   transform: translateY(0px) scale(1);
 }
 
